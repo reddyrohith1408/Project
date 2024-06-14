@@ -1,0 +1,36 @@
+Name:Rohiht Kumar Reddy
+
+To load your project onto Git for the first time, you'll need to follow these steps:
+
+1. **Navigate to your project directory**: Open a terminal or command prompt and navigate to the directory where your project is located using the `cd` command. For example:
+   ```
+   cd path/to/your/project
+   ```
+
+2. **Initialize a Git repository**: If your project directory is not already a Git repository, you need to initialize it by running the following command:
+   ```
+   git init
+   ```
+
+3. **Add your project files to the staging area**: Use the `git add` command to add all the files in your project directory to the staging area. You can also add specific files if you don't want to include all files in the initial commit. For example:
+   ```
+   git add .
+   ```
+
+4. **Commit your changes**: After adding the files, commit them to the local repository with a descriptive message using the `git commit` command. For example:
+   ```
+   git commit -m "Initial commit"
+   ```
+
+5. **Link your local repository to a remote repository**: Go to your Git hosting service (such as GitHub, GitLab, or Bitbucket) and create a new repository. Follow the instructions provided by the hosting service to add your remote repository URL to your local repository. Typically, you'll use the `git remote add origin` command to link your local repository to the remote repository. For example:
+   ```
+   git remote add origin <repository-url>
+   ```
+
+6. **Push your changes to the remote repository**: Finally, push your committed changes from your local repository to the remote repository using the `git push` command. For example:
+   ```
+   git push -u origin master
+   ```
+   Replace `master` with the name of your branch if you are working on a different branch.
+
+After completing these steps, your project will be loaded onto Git, and you'll be able to collaborate with others and manage your project's history using version control.
