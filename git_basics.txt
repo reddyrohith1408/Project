@@ -1,4 +1,4 @@
-Name:P.V.Rohiht Kumar Reddy.
+Name:P.V.Rohiht Kumar Reddy
 
 To load your project onto Git for the first time, you'll need to follow these steps:
 
